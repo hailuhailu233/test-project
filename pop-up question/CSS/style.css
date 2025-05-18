@@ -1,0 +1,127 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header style */
+
+.headerbg {
+  background-color: black;
+}
+.headerbg ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.63rem 0;
+  list-style: none;
+}
+.headerbg ul a {
+  color: rgb(173, 161, 161);
+  text-decoration: none;
+  font-size: 0.94rem;
+  font-weight: 500;
+}
+.headerbg ul a:hover {
+  opacity: 0.5;
+}
+.wrap-center {
+  max-width: 61.25rem;
+  padding: 0.63rem 1.56rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.reduce-icon {
+  width: 1.25rem;
+}
+
+.second-container {
+  background-color: black;
+  height: 700px;
+  text-align: center;
+  background-image: url(../Resource/section\ one.PNG);
+
+  background-position: bottom;
+  background-repeat: no-repeat;
+  color: white;
+  /* padding: 1.25rem 0; */
+}
+.watchx{
+  width: 70px;
+}
+.price-text {
+  color: white;
+  font-size: 10px;
+  padding: 10px 0;
+}
+.price-text1 {
+  font-size: 10px;
+  padding: 10px 0;
+}
+button {
+  background-color: #336fe1;
+  padding: 5px 15px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  margin: 5px 5px;
+}
+button:hover {
+  background-color: white;
+  color: #336fe1;
+  border: 2px solid #336fe1;
+}
+/* Learm more and buy styles */
+
+.link-list ul {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+  font-size: 1.25rem;
+  list-style: none;
+  gap: 1.5625rem;
+}
+.link-list a {
+  text-decoration: none;
+  color: #0066cc;
+  font-size: 15px;
+}
+.link-list a:hover {
+  color: black;
+}
+
+/* Greater than sign style */
+
+.fa-chevron-right {
+  font-size: 0.875rem;
+}
+.fa-circle-play {
+  font-size: 15px;
+}
+.discription-text1 {
+  font-size: 1.5625rem;
+}
+.third-container {
+  height: 700px;
+  text-align: center;
+  background-image: url(../Resource/seciton\ two.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  background-color: #f5f5f7;
+}
+.fourth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  text-align: center;
+  background-color: #f5f5f7;
+}
+.inline .link-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
